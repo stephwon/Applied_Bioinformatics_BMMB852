@@ -51,14 +51,14 @@ For more insight I used the command:
 
 Which gave me the top 10 most annotated feature types and their counts:
 ```
-403,038 count of exon
-369,663 count of CDS
-67,526 count of biological_region
-27,883 count of mRNA
-15,732 count of gene
-11,640 count of five_prime_UTR
-8,982 count of lnc_RNA
-8,097 count of three_prime_UTR
-5,689 count of ncRNA_gene
+403,038  exon
+369,663  CDS
+67,526 biological_region
+27,883 mRNA
+15,732 gene
+11,640 five_prime_UTR
+8,982 lnc_RNA
+8,097 three_prime_UTR
+5,689 ncRNA_gene
 2012 region
 ```
