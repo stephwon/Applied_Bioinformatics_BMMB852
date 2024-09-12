@@ -31,7 +31,7 @@ samtools faidx ncbi_dataset/data/GCF_001577835.2/GCF_001577835.2_Coturnix_japoni
 ```
 
 * Use IGV to visualize your genome
-![genome vis](Wk3/image/IGV_genome_viz.png)
+![genome](Wk3/image/IGV_genome_viz.png)
 
 * Separate intervals of type "gene" into a different file. If you don't have genes pick another feature.
 
