@@ -78,3 +78,6 @@ The annotation is consistent with the genome because the CDS and genes are well-
 In that same gene, I was able to find the frame where the protein P (protline) was split in the middle of the codon. You can see that because P is not aligned with the frame.
 
 `#insert findings.png`
+
+## Note:##
+`CDS.gff` (150 MB) was compressed to `CDS.gff.zip` due to GitHub file size limit.
