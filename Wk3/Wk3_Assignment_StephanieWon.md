@@ -84,5 +84,5 @@ samtools faidx ncbi_dataset/data/GCF_001577835.2/GCF_001577835.2_Coturnix_japoni
 
   ![findings](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk3/image/IGV_findings.png)
 
-### Note:###
+### Note:
 `CDS.gff` (150 MB) was compressed to `CDS.gff.zip` due to GitHub file size limit.
