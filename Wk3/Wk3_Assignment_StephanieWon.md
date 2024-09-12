@@ -4,7 +4,7 @@
 Here is the link to the previous homework as Markdown file:
 [https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk2/Wk2_Assignment_StephanieWon.md](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk2/Wk2_Assignment_StephanieWon.md)
 
-The `.txt` file of week 2 assignment is in the directory `Wk2`
+The `.txt` file for week 2 assignment is in the directory `Wk2`.
 
 ## 2. Visualize the GFF file of your choice.
 Using a resource of your choice, download the genome and annotation files for an organism of your choice.
