@@ -1,4 +1,4 @@
-# BMMB 852 Week 2 Assignment
+# Week 2 BMMB 852 Assignment
 *This text file contains the unix command used to download the GFF file and generate results.*
 
 Go to the directory where I want the file to be downloaded
