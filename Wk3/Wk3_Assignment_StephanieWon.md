@@ -51,7 +51,7 @@ cat ncbi_dataset/data/GCF_001577835.2/genomic.gff | awk '$3 == "CDS"' > CDS.gff
 mv -v *.gff
 ```
 
-`#insert gene_cds_viz`
+![gene-cds vis](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk3/image/IGV_gene_cds_viz.jpg)
 
 * Using your editor create a GFF that represents a intervals in your genome. Load that GFF as a separate track in IGV.
 Command used to create demo gene GFF:
