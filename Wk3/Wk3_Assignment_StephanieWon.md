@@ -30,10 +30,10 @@ samtools faidx ncbi_dataset/data/GCF_001577835.2/GCF_001577835.2_Coturnix_japoni
 
 ```
 
-* Use IGV to visualize your genome
+## Use IGV to visualize your genome
 ![genome](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk3/image/IGV_genome_viz.png)
 
-* Separate intervals of type "gene" into a different file. If you don't have genes pick another feature.
+## Separate intervals of type "gene" into a different file. If you don't have genes pick another feature.
 
 Commands used to generate `gene.gff` and `CDS.gff`
 
@@ -53,7 +53,7 @@ mv -v *.gff
 
 ![gene-cds vis](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk3/image/IGV_gene_cds_viz.png)
 
-* Using your editor create a GFF that represents a intervals in your genome. Load that GFF as a separate track in IGV.
+## Using your editor create a GFF that represents a intervals in your genome. Load that GFF as a separate track in IGV.
 Command used to create demo gene GFF:
 ```
 cd gff_files
@@ -65,19 +65,21 @@ code demo_gene.gff
 NC_029516.1	.	.	88686000	88773240	.	.	.	.
 ```
 
-`#insert demo-gene_viz`
+![demo gene](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk3/image/IGV_demo-gene_viz.png)
 
-* Report findings and provide relevant screenshots.
+## Report findings and provide relevant screenshots.
 
 The annotation is consistent with the genome because the CDS and genes are well-reflected in the reference genome. Using the *USP25* gene as an example, I was able to find the start and stop codons.
 
-`#insert start-codon`
+### Start codon
+![start codon](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk3/image/IGV_findings_start-codon.jpg)
 
-`#insert stop-codon`
+### Stop codon
+![stop codon](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk3/image/IGV_findings_stop-codon.jpg)
 
 In that same gene, I was able to find the frame where the protein P (protline) was split in the middle of the codon. You can see that because P is not aligned with the frame.
 
-`#insert findings.png`
+![findings](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk3/image/IGV_findings.png)
 
 ## Note:##
 `CDS.gff` (150 MB) was compressed to `CDS.gff.zip` due to GitHub file size limit.
