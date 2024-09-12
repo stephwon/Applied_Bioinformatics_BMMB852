@@ -1,7 +1,7 @@
 # Week 3 BMMB 852 Assignment
 
 1. Reformat your previous assignment
-	Here is the link to the previous homework as Markdown file: https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk2_Assignment_StephanieWon.md
+	Here is the link to the previous homework as Markdown file: [https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk2_Assignment_StephanieWon.md](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk2/Wk2_Assignment_StephanieWon.md)
 
 2. Visualize the GFF file of your choice.
 Using a resource of your choice, download the genome and annotation files for an organism of your choice.
