@@ -1,0 +1,8 @@
+id: SO:0000336
+name: pseudogene
+def: "A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their \"normal\" paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its \"normal\" paralog)." [http://www.ucl.ac.uk/~ucbhjow/b241/glossary.html]
+subset: Alliance_of_Genome_Resources
+subset: SOFA
+synonym: "INSDC_feature:gene" BROAD []
+synonym: "INSDC_qualifier:pseudo" EXACT []
+synonym: "INSDC_qualifier:unknown" EXACT []
