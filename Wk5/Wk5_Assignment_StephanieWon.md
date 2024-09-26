@@ -70,7 +70,7 @@ Answer:
 
 * Approximately 21304KB (~20.8MB) of space was saved after compression. That's 71.00% of space saved. 
 
-The math is included in the script. 
+NOTE: The math is included in the script. 
 
 ### Question 3. How much data would be generated when covering the Yeast,  the Drosophila or the Human genome at 30x?
 
