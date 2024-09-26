@@ -66,7 +66,9 @@ Answer:
 
 * Average read length is 100 base pairs long
 
-* The size of the FASTQ files are 15,009,876 bytes (approx. 14.3MB) each. Total size is 30,019,752 bytes (approx. 28.63MB).
+* The size of the FASTQ files is 15,009,876 bytes (approx. 14.3MB) each.
+
+  Total size is 30,019,752 bytes (approx. 28.63MB).
 
 * Approximately 21304KB (~20.8MB) of space saved. That's 71.00% of space saved. 
 
