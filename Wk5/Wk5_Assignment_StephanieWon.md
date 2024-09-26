@@ -87,45 +87,27 @@ NOTE: Assuming the read length is 100bp
 
 ### **Yeast Genome (12.1 Mb)**
 - **Genome Size**: 12,100,000 base pairs.
-- **Number of FASTQ reads needed**:
-  \[
-  \frac{30 \times 12,100,000}{100} = 3,630,000 \text{ reads}
-  \]
-- **Size of FASTQ file before compression**:
-  \[
-  3,630,000 \text{ reads} \times 200 \text{ bytes} = 726,000,000 \text{ bytes} = 692.37 \text{ MB}
-  \]
-- **After compression** (assuming 60-70% compression):
-  \[
-  692.37 \text{ MB} \times 0.35 = 242.33 \text{ MB}
-  \]
+- **Number of FASTQ reads needed**: 
+    $\frac{30 \times 12,100,000}{100} = 3,630,000 \text{ reads}$
+- **Size of FASTQ file before compression**: 
+    $3,630,000 \text{ reads} \times 200 \text{ bytes} = 726,000,000 \text{ bytes} = 692.37 \text{ MB}$
+- **After compression (assuming 60-70% compression)**: 
+    $692.37 \text{ MB} \times 0.35 = 242.33 \text{ MB}$
 
 ### **Drosophila Genome (139.5 Mb)**
 - **Genome Size**: 139,500,000 base pairs.
-- **Number of FASTQ reads needed**:
-  \[
-  \frac{30 \times 139,500,000}{100} = 41,850,000 \text{ reads}
-  \]
-- **Size of FASTQ file before compression**:
-  \[
-  41,850,000 \text{ reads} \times 200 \text{ bytes} = 8,370,000,000 \text{ bytes} = 7.80 \text{ GB}
-  \]
-- **After compression**:
-  \[
-  7.80 \text{ GB} \times 0.35 = 2.73 \text{ GB}
-  \]
+- **Number of FASTQ reads needed**: 
+    $\frac{30 \times 139,500,000}{100} = 41,850,000 \text{ reads}$
+- **Size of FASTQ file before compression**: 
+    $41,850,000 \text{ reads} \times 200 \text{ bytes} = 8,370,000,000 \text{ bytes} = 7.80 \text{ GB}$
+- **After compression**: 
+    $7.80 \text{ GB} \times 0.35 = 2.73 \text{ GB}$
 
 ### **Human Genome (3.1 Gb)**
 - **Genome Size**: 3,100,000,000 base pairs.
-- **Number of FASTQ reads needed**:
-  \[
-  \frac{30 \times 3,100,000,000}{100} = 930,000,000 \text{ reads}
-  \]
-- **Size of FASTQ file before compression**:
-  \[
-  930,000,000 \text{ reads} \times 200 \text{ bytes} = 186,000,000,000 \text{ bytes} = 173.61 \text{ GB}
-  \]
-- **After compression**:
-  \[
-  173.61 \text{ GB} \times 0.35 = 60.76 \text{ GB}
-  \]
+- **Number of FASTQ reads needed**: 
+    $\frac{30 \times 3,100,000,000}{100} = 930,000,000 \text{ reads}$
+- **Size of FASTQ file before compression**: 
+    $930,000,000 \text{ reads} \times 200 \text{ bytes} = 186,000,000,000 \text{ bytes} = 173.61 \text{ GB}$
+- **After compression**: 
+    $173.61 \text{ GB} \times 0.35 = 60.76 \text{ GB}$
