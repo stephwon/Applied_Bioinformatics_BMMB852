@@ -83,7 +83,7 @@ For each organism (Yeast, Drosophila, and Human), the estimates for the size of 
 | **Drosophila**     | 139.5 Mb        | 41,850,000          | 7.80 GB                             | 2.73 GB                           |
 | **Human**          | 3.1 Gb          | 930,000,000         | 173.61 GB                           | 60.76 GB                          |
 
-NOTE: Assuming the read length is 100bp
+NOTE: Assuming the read length is 100bp and a read (with 100 base pairs) will consume around 200 bytes of storage.
 
 ### **Yeast Genome (12.1 Mb)**
 - **Genome Size**: 12,100,000 base pairs.
