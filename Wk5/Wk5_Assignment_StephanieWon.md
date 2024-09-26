@@ -83,11 +83,9 @@ For each organism (Yeast, Drosophila, and Human), the estimates for the size of 
 | **Drosophila**     | 139.5 Mb        | 41,850,000          | 7.80 GB                             | 2.73 GB                           |
 | **Human**          | 3.1 Gb          | 930,000,000         | 173.61 GB                           | 60.76 GB                          |
 
-## Estimation Details:
-
 NOTE: Assuming the read length is 100bp
 
-### 1. **Yeast Genome (12.1 Mb)**
+### **Yeast Genome (12.1 Mb)**
 - **Genome Size**: 12,100,000 base pairs.
 - **Number of FASTQ reads needed**:
   \[
@@ -102,7 +100,7 @@ NOTE: Assuming the read length is 100bp
   692.37 \text{ MB} \times 0.35 = 242.33 \text{ MB}
   \]
 
-### 2. **Drosophila Genome (139.5 Mb)**
+### **Drosophila Genome (139.5 Mb)**
 - **Genome Size**: 139,500,000 base pairs.
 - **Number of FASTQ reads needed**:
   \[
@@ -117,7 +115,7 @@ NOTE: Assuming the read length is 100bp
   7.80 \text{ GB} \times 0.35 = 2.73 \text{ GB}
   \]
 
-### 3. **Human Genome (3.1 Gb)**
+### **Human Genome (3.1 Gb)**
 - **Genome Size**: 3,100,000,000 base pairs.
 - **Number of FASTQ reads needed**:
   \[
