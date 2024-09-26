@@ -2,13 +2,13 @@
 
 ## Part 1: Write a script
 
-##### Q: Write bash scrip based on the code from previous assignment. Run your script on your original data and verify that it works.
+##### Q: Write bash script based on the code from previous assignment. Run your script on your original data and verify that it works.
 
  Ran the commands:
   ```
   cd ~/Desktop/BMMB-852_Applied-Bioinformatics/Wk4
   chmod +x wk4.sh
-  bash wk4.sh
+  bash wk4_part1.sh
   ```
 
  It created the GFF files and gave me stats on the genome and gene count (second to the last) and GFF file creation completion statement output:
@@ -28,7 +28,7 @@ Note: Removed tracer statement outputs for better readability; only showing thre
 ##### Add more functions to the script that also print some of their results. Were you able to reproduce their results? Make a note in the report.
 
 I was able to reproduce their results. Used my script on [this](https://github.com/nakinscherf/BMMB852/blob/main/week3/Kinscherf_wk3.md) person's organism.  
-Additional fuctions are in the `wk4.sh` script to print some results. Output from the additional functions:
+Additional fuctions are in the `wk4_part1.sh` script to print some results. Output from the additional functions:
 ```
 The number of genes is     5544
 
@@ -68,7 +68,12 @@ Chose `pseudogene` as the feature type from my GFF file and ran the following co
 conda activate bioinfo
 cd BMMB-852_Applied-Bioinformatics/Wk4
 mkdir sequence_ontology
+```
+Ran the command 
+`./wk4_part2_sequence-ontology.sh`
+to get the answer for Part 2.
 
+```
 # Get pseudogene definition
 bio explain pseudogene
 ```
