@@ -60,7 +60,8 @@ Total FASTQ file size: 30019752 bytes
 ```
 
 Answer:
-* Approximately 8 reads were generated. $C = \frac{L \times N}{G}$ which means $N = \frac{G \times C}{L}$. $N = \frac{85 \times 10}{100}$ = 8.5 which is approximately 8 reads
+* Approximately 8 reads were generated. $C = \frac{L \times N}{G}$ which means $N = \frac{G \times C}{L}$.
+  $N = \frac{85 \times 10}{100}$ = 8.5 which is approximately 8 reads
 
 * Average read length is 100 base pairs long
 
