@@ -66,13 +66,11 @@ Answer:
 
 * Average read length is 100 base pairs long
 
-* The size of the FASTQ files is 15,009,876 bytes (approx. 14.3MB) each.
+* The size of the FASTQ files is 15,009,876 bytes (approx. 14.3MB) each. Total file size is 30,019,752 bytes (approx. 28.63MB).
 
-  Total size is 30,019,752 bytes (approx. 28.63MB).
+* Approximately 21304KB (~20.8MB) of space was saved after compression. That's 71.00% of space saved. 
 
-* Approximately 21304KB (~20.8MB) of space saved. That's 71.00% of space saved. 
-
-The math is computed in the script. 
+The math is included in the script. 
 
 ### Question 3. How much data would be generated when covering the Yeast,  the Drosophila or the Human genome at 30x?
 
