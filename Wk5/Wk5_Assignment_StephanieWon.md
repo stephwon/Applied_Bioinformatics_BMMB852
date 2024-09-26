@@ -4,7 +4,7 @@
 
 Link to the script [here](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk5/fastq_report.sh).
 
-I chose `GCF_000307795.1 ` which is H.pylori, a bacteria strain known to cause stomach and/or colon cancer.
+I chose `GCF_000307795.1` which is H.pylori, a bacteria strain known to cause stomach and/or colon cancer.
 I ran the following command to get executet the script:
 ```
 chmod +x fastq_report.sh
