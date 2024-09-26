@@ -85,8 +85,8 @@ For each organism (Yeast, Drosophila, and Human), the estimates for the size of 
 
 NOTE: Assuming the read length is 100bp and a read (with 100 base pairs) will consume around 200 bytes of storage.
 
-### **Yeast Genome (12.1 Mb)**
-- **Genome Size**: 12,100,000 base pairs.
+### **Yeast Genome**
+- **Genome Size**: 12,100,000 base pairs (12.1 Mb).
 - **Number of FASTQ reads needed**: 
     $\frac{30 \times 12,100,000}{100} = 3,630,000 \text{ reads}$
 - **Size of FASTQ file before compression**: 
@@ -94,8 +94,8 @@ NOTE: Assuming the read length is 100bp and a read (with 100 base pairs) will co
 - **After compression (assuming 60-70% compression)**: 
     $692.37 \text{ MB} \times 0.35 = 242.33 \text{ MB}$
 
-### **Drosophila Genome (139.5 Mb)**
-- **Genome Size**: 139,500,000 base pairs.
+### **Drosophila Genome**
+- **Genome Size**: 139,500,000 base pairs (139.5 Mb).
 - **Number of FASTQ reads needed**: 
     $\frac{30 \times 139,500,000}{100} = 41,850,000 \text{ reads}$
 - **Size of FASTQ file before compression**: 
@@ -103,8 +103,8 @@ NOTE: Assuming the read length is 100bp and a read (with 100 base pairs) will co
 - **After compression**: 
     $7.80 \text{ GB} \times 0.35 = 2.73 \text{ GB}$
 
-### **Human Genome (3.1 Gb)**
-- **Genome Size**: 3,100,000,000 base pairs.
+### **Human Genome**
+- **Genome Size**: 3,100,000,000 base pairs (3.1 Gb).
 - **Number of FASTQ reads needed**: 
     $\frac{30 \times 3,100,000,000}{100} = 930,000,000 \text{ reads}$
 - **Size of FASTQ file before compression**: 
