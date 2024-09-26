@@ -1,0 +1,70 @@
+StephanieWon_Wk1_BMMB852
+
+Lecture 1:
+
+1. Set up completed.
+
+2. Followed the installation instructions.
+
+3. $ doctor.py
+  Output:
+  # Doctor! Doctor! Give me the news.
+# Checking symptoms ...
+# bwa           ... OK
+# datamash      ... OK
+# fastqc -h     ... OK
+# hisat2        ... OK
+# featureCounts ... OK
+# efetch        ... OK
+# esearch       ... OK
+# samtools      ... OK
+# fastq-dump    ... OK
+# bowtie2       ... OK
+# bcftools      ... OK
+# seqtk         ... OK
+# seqkit        ... OK
+# bio           ... OK
+# fastq-dump -X 1 -Z SRR1553591 ... OK
+# You are doing well, Majesty!
+
+4. #Generate statistics on the BAM file using: 
+	samtools flagstat SRR1553425-AF086833.bam
+   #The output will be summary statistic of the alignment results
+
+5. samtools --version
+   
+   Output:
+   samtools 1.20
+
+
+Lecture 2:
+
+1. sed # command is used to automate search, find and replace (edit) text in scripts or file. Essentially it's a text manipulation command.
+
+2. sed 's/cat/hat/g' filename.txt
+  # The parameter 's/foo/bar/g' is to find the word(s) `cat` in the filename.txt and replace every `cat` found with `hat`. `s` argument specifies to substitute `cat` to `hat` and `g` means global, meaning replace every word that is/are `cat` in the .txt not just the first one it found.  
+
+3. `-lh` 
+  # will give me "human-friendly" mode. The complete command will look like this:
+  ls -lh
+
+4. `-i`  will ask user for confirmation before deletion. The complete command will look like this:
+rm -i filename
+
+5. mkdir -p bmmb852/assignment/week_1/data assignment/week_1/files bmmb852/scripts bmmb852/results/figures bmmb852/results/tables
+ touch bmmb852/assignment/week_1/files/sample1.csv bmmb852/results/tables/result_sample1.csv
+
+6. Absolute path: /home/sj_won/bmmb852/assignment/week_1/files/sample1.csv
+   Relative path: week_1/files/sample1.csv
+
+7. # create new file in directory within home directory
+   touch ~/bmmb852/assignment/week_1/files/demofile.txt
+   # navigating to directory within home directory 
+   cd ~/bmmb852/assignment/week_1/files
+   # lists out files in the current directory 
+   ls . 
+   # create new file (newfile.txt) in the current directory
+   touch ./newfile.txt
+   # move file (newfile.txt) from the current directory to the parent directory 
+   mv ./newfile.txt ../ 
+
