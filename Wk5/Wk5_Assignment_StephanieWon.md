@@ -16,7 +16,7 @@ file                                                                      format
 ncbi_dataset/data/GCF_000307795.1/GCF_000307795.1_ASM30779v1_genomic.fna  FASTA   DNA          1  1,667,892  1,667,892  1,667,892  1,667,892
 
 The size of the file:
-1.6M
+1.6MB
 
 Total size of the genome (in base pairs): 1,667,892
 Number of chromosomes in the genome: 1
