@@ -18,7 +18,7 @@ Q. Improve the quality of the reads in the dataset. Evaluate the quality again a
 After trimming the adapter, the quality of the reads did not improve (image); doesn't even have any score. 
 
 After trim:
-![After trimming](Wk6/image/After.png) 
+![After trimming](image/After.png) 
 
 
 This could mean several things:
@@ -28,6 +28,6 @@ This could mean several things:
 
 I investigated this further by going to the `Data Access` looking at the original data submission [(BAM files)](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&page_size=10&acc=SRR4181534&display=reads).
 Looking at couple of random readm the Q scores are all 30 at SRA site.
-![SRA site](Wk6/image/SRA_site.png)
+![SRA site](image/SRA_site.png)
 
 If I were the publisher, I would re-examine this file and re-upload the file or re-sequence it to verify and validate.
