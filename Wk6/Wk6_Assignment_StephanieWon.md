@@ -11,6 +11,7 @@ chmod +x fastq_qual.sh
 ```
 
 The sequence quality of both read files is very bad. `Per base sequence quality` and `Per sequence quality scores` are in the lowest quality score (0-10).
+
 FASTQ Quality ![(before trim)](Wk6/image/Before.png):
 
 Q. Improve the quality of the reads in the dataset. Evaluate the quality again and document the improvements.
