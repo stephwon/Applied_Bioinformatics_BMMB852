@@ -3,7 +3,8 @@
 Identify a bad sequencing dataset. You may need to evaluate multiple SRR numbers to find one with poor quality.
 
 Q. Evaluate the quality of the downloaded data.
-The file is whole genome sequence of Limulus polyphemus in skeletal leg muscle (SRA Accession:`SRR4181534`). The sample was sequenced using Illumina HiSeq 2000. The file is paired end reads. There are 62.7Gbp with 310.4M spots/reads. 
+The file is whole genome sequence of Limulus polyphemus in skeletal leg muscle (SRA Accession:`SRR4181534`). The sample was sequenced using Illumina HiSeq 2000. The file is paired end reads. There are 62.7Gbp with 310.4M spots/reads. Link to script is [here](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/blob/main/Wk6/fastq_qual.sh).
+
 Commands to run the script:
 ```
 chmod +x fastq_qual.sh
