@@ -1,3 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	SRR4181534_1	/Users/sj_won/Desktop/BMMB-852_Applied-Bioinformatics/Wk6/reports/SRR4181534_1.trimmed_fastqc.zip
-FastQC	all_sections	SRR4181534_2	/Users/sj_won/Desktop/BMMB-852_Applied-Bioinformatics/Wk6/reports/SRR4181534_2.trimmed_fastqc.zip

@@ -1,5 +1,0 @@
-[2024-10-05 21:00:19,078] multiqc.core.file_search                           [INFO   ]  Search path: /Users/sj_won/Desktop/BMMB-852_Applied-Bioinformatics/Wk6/reports
-[2024-10-05 21:00:19,203] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 2 reports
-[2024-10-05 21:00:19,204] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'SRR4181534_1'
-[2024-10-05 21:00:19,204] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'SRR4181534_2'
-[2024-10-05 21:00:19,205] multiqc.plots.bargraph                             [WARNING]  Tried to make bar plot, but had no data: fastqc_sequence_counts_plot
