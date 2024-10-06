@@ -8,4 +8,6 @@ Fall '24 BMMB 852 Applied Bioinformatics Class Coding projects and scripts.
 
 * `Wk4` contains scripts for the assignment. `wk4_part2.sh` is script for the Sequence Ontology section. The `sequence_ontology` directory contains the TXT file of the `pseudogene` feature report.
   
-* `Wk5` contains scripts and markdown report for the assignment. `fastq_report.sh` is the script for answering `Question 1` and `fastq_simulation.sh` is the script for answering `Question 2` and `Question 3` of the assignment. `fastq_simulaton.sh` is simulating reads using various sequencing models. 
+* `Wk5` contains scripts and markdown report for the assignment. `fastq_report.sh` is the script for answering `Question 1` and `fastq_simulation.sh` is the script for answering `Question 2` and `Question 3` of the assignment. `fastq_simulaton.sh` is simulating reads using various sequencing models.
+
+* `Wk6` contains script and markdown report for FASTQ quality control assignment. The directory contains image files in relation to the assignment. 
