@@ -11,13 +11,14 @@ chmod +x fastq_qual.sh
 ```
 
 The sequence quality of both read files is very bad. `Per base sequence quality` and `Per sequence quality scores` are in the lowest quality score (0-10).
-
-FASTQ Quality ![(before trim)](Wk6/image/Before.png):
+FASTQ Quality (before trim):
+![Before Trim](Wk6/image/Before.png):
 
 Q. Improve the quality of the reads in the dataset. Evaluate the quality again and document the improvements.
 After trimming the adapter, the quality of the reads did not improve (image); doesn't even have any score. 
 
-![After trimming:](Wk6/image/After.png) 
+After trim:
+![After trimming](Wk6/image/After.png) 
 
 
 This could mean several things:
@@ -26,6 +27,7 @@ This could mean several things:
 
 
 I investigated this further by going to the `Data Access` looking at the original data submission [(BAM files)](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&page_size=10&acc=SRR4181534&display=reads).
-Looking at couple of random readm the Q scores are all 30 at ![SRA site](Wk6/image/SRA_site.png).
+Looking at couple of random readm the Q scores are all 30 at SRA site.
+![SRA site](Wk6/image/SRA_site.png)
 
 If I were the publisher, I would re-examine this file and re-upload the file or re-sequence it to verify and validate.
