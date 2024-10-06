@@ -30,4 +30,4 @@ I investigated this further by going to the `Data Access` looking at the origina
 Looking at couple of random readm the Q scores are all 30 at SRA site.
 ![SRA site](image/SRA_site.png)
 
-If I were the publisher, I would re-examine this file and re-upload the file or re-sequence it to verify and validate.
+If I were the publisher I would re-examine the FASTQ file to either re-upload or re-sequence it to verify and validate that they have sequenced it correctly and provided the correct data.
