@@ -32,3 +32,5 @@ Looking at couple of random readm the Q scores are all 30 at SRA site.
 ![SRA site](image/SRA_site.png)
 
 If I were the publisher I would re-examine the FASTQ file to either re-upload or re-sequence it to verify and validate that they have sequenced it correctly and provided the correct data.
+
+The FASTQC and MultiQC `.html` format reports are located [here](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/tree/main/Wk6/data).
