@@ -60,4 +60,4 @@ trim:
 	cutadapt -a ${ADAPTER} -o ${T1} -p ${T2} ${R1} ${R2}
 	fastqc -q -o ${PDIR} ${T1} ${T2}
 
-.PHONY: usage genome simulate download trim
+.PHONY: usage
