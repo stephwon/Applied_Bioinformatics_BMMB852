@@ -1,4 +1,4 @@
-### Week 7: Makefile
+### Week 7 BMMB 852 Assignment: Makefile
 The organism I am using is `Helicobacter pylori (H.pylori)`.
 
 The variables used to make the `Makefile`
