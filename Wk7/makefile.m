@@ -1,7 +1,6 @@
 # Genome Accession number (Organism: H.pylori)
-GENOME_ACC=GCF_000307795.1
+ACC=GCF_000307795.1
 
-# GFF file name 
 FNA=GCF_000307795.1_ASM30779v1_genomic.fna
 GENOME_PATH="fastq_report/ncbi_dataset/data/${GENOME_ID}/${FNA}"
 GENOME=Helicobacteria.fa
@@ -39,7 +38,7 @@ usage:
 
 # Download the genome
 genome:
-	datasets download genome accession ${GENOME_ACC}
+	datasets download genome accession ${ACC}
 	unzip -n ncbi_dataset.zip
 	ln -sf "${GENOME_PATH}" "${GENOME}"
 
@@ -60,4 +59,4 @@ trim:
 	cutadapt -a ${ADAPTER} -o ${T1} -p ${T2} ${R1} ${R2}
 	fastqc -q -o ${PDIR} ${T1} ${T2}
 
-.PHONY: usage
+.PHONY: usage 
