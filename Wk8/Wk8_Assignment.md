@@ -29,6 +29,7 @@ index:
 
 The following command is to execute alignment of sequence reads to the reference genome:
 ```
+#Align the reads to the reference genome
 align:
 	mkdir -p bam
 	bwa mem ${GENOME} ${t1} > bam/${SAM}
