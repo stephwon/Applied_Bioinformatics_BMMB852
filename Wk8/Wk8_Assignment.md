@@ -37,7 +37,7 @@ align:
 	samtools index bam/${BAM}
 ```
 When we put it all together into IGV, the result looks like this:
-
+![IGV](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/tree/main/Wk8/image)
 
 The reson for terrible alingment is because the SRA is horrific file from the start.
 
