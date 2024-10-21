@@ -68,4 +68,4 @@ Output:
 0 + 0 with mate mapped to a different chr
 0 + 0 with mate mapped to a different chr (mapQ>=5)
 ```
-Since the data itself if the worst state, there is not result to be produced, hence why it came out all ZERO reads, alignments, etc.
+Since the data itself is in the worst state, there is not a result to be produced, hence why it came out all ZERO reads, alignments, etc.
