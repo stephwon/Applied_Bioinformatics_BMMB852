@@ -82,4 +82,4 @@ align:
 	cat bam/${SAM} | samtools sort > bam/${BAM}
 	samtools index bam/${BAM}
 
-.PHONY: usage 
+.PHONY: usage genome simulate download trim index align
