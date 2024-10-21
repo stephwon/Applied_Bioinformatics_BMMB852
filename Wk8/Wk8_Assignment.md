@@ -42,7 +42,7 @@ When we put it all together into IGV, the result looks like this:
 
 The reson for terrible alingment is because the SRA is horrific file from the start. 
 
-Note: This file earned the `Who can find the worst data` from previous (Week 6 assignment) challenge.
+Note: This file earned the `Who can find the worst data` from previous (Week 6 assignment) challenge. 🏆🥇
 
 Even with QC and trimming, the file reads were unsalvageable.
 
