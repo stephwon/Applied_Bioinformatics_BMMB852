@@ -36,7 +36,7 @@ align:
 	cat bam/${SAM} | samtools sort > bam/${BAM}
 	samtools index bam/${BAM}
 ```
-When we put it all together into IGV, the result looks like this
+When we put it all together into IGV, the result looks like this:
 
 
 The reson for terrible alingment is because the SRA is horrific file from the start.
@@ -44,6 +44,25 @@ The reson for terrible alingment is because the SRA is horrific file from the st
 Even with QC and trimming, the file reads were unsalvageable.
 
 To obtain statistics of the alignment use the following command:
+```samtools flagstats bam/align.bam```
+
+Output:
 ```
-samtools flagstats bam/align.bam
+0 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+0 + 0 mapped (N/A : N/A)
+0 + 0 primary mapped (N/A : N/A)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (N/A : N/A)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (N/A : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
 ```
+Since the data itself if the worst state, there is not result to be produced, hence why it came out all Zero reads, alignments, etc.
