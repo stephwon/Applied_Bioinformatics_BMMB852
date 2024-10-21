@@ -11,3 +11,5 @@ Fall '24 BMMB 852 Applied Bioinformatics Class Coding projects and scripts.
 * `Wk5` contains scripts and markdown report for the assignment. `fastq_report.sh` is the script for answering `Question 1` and `fastq_simulation.sh` is the script for answering `Question 2` and `Question 3` of the assignment. `fastq_simulaton.sh` is simulating reads using various sequencing models.
 
 * `Wk6` contains script and markdown report for FASTQ quality control assignment. The directory contains image files in relation to the assignment. 
+* `Wk7` contains makefile and markdown report using previous assignment
+* `Wk8` contains makefile that generates BAM alignment file and markdown report of the alignment result.
