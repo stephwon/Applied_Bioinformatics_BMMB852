@@ -2,7 +2,7 @@
 ACC=GCF_000307795.1
 
 FNA=GCF_000307795.1_ASM30779v1_genomic.fna
-GENOME_PATH="fastq_report/ncbi_dataset/data/${GENOME_ID}/${FNA}"
+GENOME_PATH="fastq_report/ncbi_dataset/data/${ACC}/${FNA}"
 GENOME=Helicobacteria.fa
 
 # SRR number 
