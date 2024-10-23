@@ -32,7 +32,7 @@ The following command is to execute alignment of sequence reads to the reference
 #Align the reads to the reference genome
 align:
 	mkdir -p bam
-	bwa mem ${GENOME} ${t1} > bam/${SAM}
+	bwa mem ${GENOME} ${T1} > bam/${SAM}
 	cat bam/${SAM} | samtools sort > bam/${BAM}
 	samtools index bam/${BAM}
 ```
