@@ -1,5 +1,5 @@
 # Applied Bioinformatics BMMB852: Table of Contents
-Fall '24 BMMB 852 Applied Bioinformatics Class Coding projects and scripts.
+Fall '24 BMMB 852 Applied Bioinformatics Class Coding Projects and Scripts.
 
 * `Wk1` contains week 1 assignment in `.txt` format.
 * `Wk2` contains week 2 assignment in `.txt` and `.md` files. The assigment was to demonstrate data analysis using UNIX command lines and produce results. The GFF file used was from `https://ftp.ensembl.org/pub/current_gff3/coturnix_japonica/`
