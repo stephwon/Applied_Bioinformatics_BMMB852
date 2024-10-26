@@ -133,4 +133,4 @@ The `original_bam_flagstat.txt` report:
 * `Supplementary Alignments`: Reduced from 72 in the original to 42 in the filtered BAM
 * `Singletons and Cross-Chromosome Mappings`: Filtered BAM has no singletons or cross-chromosome mate mappings, indicating strict filtering. The original BAM has mate mapping of 90.
 
-The flagstat reports for filtered and original is in `/flagstat_reports`. 
+The flagstat reports for filtered and original are in [here](https://github.com/stephwon/Applied_Bioinformatics_BMMB852/tree/main/Wk9/flagstat_reports). 
