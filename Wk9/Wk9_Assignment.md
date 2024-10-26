@@ -31,25 +31,23 @@ samtools flagstat bam/tuberculosis.bam
 89 + 0 with mate mapped to a different chr (mapQ>=5)
 ```
 
-#### Question 1: How many reads did not align with the reference genome?
-Given that the `total reads` was `20,072` and the `mapped reads` was `20,038` the number of reads that did not align is:
+**Question 1:** How many reads did not align with the reference genome?
+Given that:
 
-\begin{align*}
-\text{Total Reads} &= 20,072 \\
-\text{Mapped Reads} &= 20,038 \\
-\text{Unmapped Reads} &= 20,072 - 20,038 = 34
-\end{align*}
+$$N_{total} = 20,072$$
+$$N_{mapped} = 20,038$$
+$$N_{unmapped} = $N_{total} - $N_{mapped} = 20,072 - 20,038 = 34$$
 
 Thus, **34 reads did not align** to the reference genome.
 
-#### Question 2: How many primary, secondary, and supplementary alignments are in the BAM file?
+**Question 2:** How many primary, secondary, and supplementary alignments are in the BAM file?
 
 Based on the `samtools flagstat` output:
 * Primary: 20,000 alignments as indicated by `20000 + 0 primary`
 * Secondary: 0 alignments, shown as `0 + 0 secondary`
 * Supplementary: 72 supplementary alignments, given as `72 + 0 supplementary`
 
-#### Question 3: How many properly-paired alignments on the reverse strand are formed by reads contained in the first pair?
+**Question 3:** How many properly-paired alignments on the reverse strand are formed by reads contained in the first pair?
 To obtain paired alignmetns on the reverse strand, I used the following command 
 ```
 samtools view -f 0x2 -f 0x40 -F 0x10 bam/tuberculosis.bam | wc -l
@@ -65,7 +63,7 @@ Hence the Output:
 4909
 ```
 
-#### Question 4: Make a new BAM file that contains only the properly paired primary alignments with a mapping quality of over 10.
+**Question 4:** Make a new BAM file that contains only the properly paired primary alignments with a mapping quality of over 10.
 
 To create new BAM file with paired primary alingments with quality > 10, I ran the following command:
 ```
@@ -80,7 +78,7 @@ The parameters used in the command are:
 
 The paired primary alignments with mapping quality >10 BAM file is stored in `/bam` and file name is `tuberculosis_filtered.bam`
 
-#### Question 5: Compare the flagstats between orginal and filtered BAM file.
+**Question 5:** Compare the flagstats between orginal and filtered BAM file.
 I used the following commands to generate the flagstats for original and filtered BAM file:
 ```
 # Flagstat report for original BAM file
