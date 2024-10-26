@@ -34,9 +34,11 @@ samtools flagstat bam/tuberculosis.bam
 #### Question 1: How many reads did not align with the reference genome?
 Given that the `total reads` was `20,072` and the `mapped reads` was `20,038` the number of reads that did not align is:
 
-\text{Total Reads} = 20,072 \\
-\text{Mapped Reads} = 20,038 \\
-\text{Unmapped Reads} = 20,072 - 20,038 = 34
+\begin{align*}
+\text{Total Reads} &= 20,072 \\
+\text{Mapped Reads} &= 20,038 \\
+\text{Unmapped Reads} &= 20,072 - 20,038 = 34
+\end{align*}
 
 Thus, **34 reads did not align** to the reference genome.
 
