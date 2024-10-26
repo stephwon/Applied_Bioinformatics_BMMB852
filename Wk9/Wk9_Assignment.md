@@ -2,7 +2,7 @@
 
 The goal is to use the BAM file created from previous assignment via Makefile and extract statistical and other relevant information.
 
-Since Istvan requested I use a different SRA and genome after winning `"Find the worst data"` championship from previous assigntmets. 
+Since Istvan requested I use a different SRA and genome after winning `"Find the worst data"` championship from previous assigntmets. The organism I used is Tuberculosis, a bacteria known to cause respiratory illness.
 
 For the sake of assignment I chose Tuberculosis. I have modified the `Makefile` accordingly and the script is in the repository as `Makefile.mk`. 
 
