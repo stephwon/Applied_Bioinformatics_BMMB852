@@ -13,3 +13,4 @@ Fall '24 BMMB 852 Applied Bioinformatics Class Coding Projects and Scripts.
 * `Wk6` contains script and markdown report for FASTQ quality control assignment. The directory contains image files in relation to the assignment. 
 * `Wk7` contains makefile and markdown report using previous assignment
 * `Wk8` contains makefile that generates BAM alignment file and markdown report of the alignment result.
+* `Wk9` contains the markdown and flagstat reports (`.txt` files) as well as makefile. 
