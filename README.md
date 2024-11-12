@@ -1,4 +1,4 @@
-# Applied Bioinformatics BMMB852: Table of Contents
+# Table of Contents
 Fall '24 BMMB 852 Applied Bioinformatics Class Coding Projects and Scripts.
 
 * `Wk1` contains week 1 assignment in `.txt` format.
