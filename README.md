@@ -15,3 +15,5 @@ Fall '24 BMMB 852 Applied Bioinformatics Class Coding Projects and Scripts.
 * `Wk8` contains makefile that generates BAM alignment file and markdown report of the alignment result.
 * `Wk9` contains the markdown and flagstat reports (`.txt` files) as well as makefile. 
 * `Wk_10` contains the markdown report and makefile for variant calling assignment.
+* `Wk_11` contains the markdown report and makefile for variant effect predition.
+* `Wk_12` contians the markdown report and makefile for automate a VCF calling pipeline.
