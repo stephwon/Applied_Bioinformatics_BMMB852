@@ -58,3 +58,6 @@ which yield __512__ variants.
 ### IGV view 
 The cyan color bars indicate possible SNPs, bases differeing from reference genome.
 ![IGV](image/vcf_view.png)
+
+More zoomed in view
+![IGV2](image/vcf_view2.png)
