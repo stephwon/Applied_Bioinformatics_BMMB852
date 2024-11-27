@@ -1,9 +1,11 @@
 ## Week 12: Automate VCF Pipeline
-Created the `design.csv` file using the following commands:
+For this assignment I collected a set of samples from BioProject Accession [PRJNA1080563](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=1080563). It's a whole henome sequencing of M.tuberculosis complex submitted by Texas Department of State Health Services.
+
+To create the `design.csv` file, I used the following commands:
 ```
 bio search PRJNA1080563 -H --csv > design.csv && awk -F, 'NR==1 || $14 == "PAIRED"' design.csv | head -n 4 > design.csv
 ```
-Note: There were couple samples that were single end reads so had to filter out for the `design.csv`
+Note: There were couple samples that were single end reads so had to filter out to extract Paired-end for the `design.csv`
 
 To execute the pipeline with the Variant Calling `Makefile.mk`, run the following command:
 ```
