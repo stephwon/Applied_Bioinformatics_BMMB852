@@ -22,7 +22,7 @@ featureCounts -a TB.gff -o TB_matrix.txt *.bam
 ### Result
 
 Visualizing the aligned RAN-seq files in IGV:
-![rna_seq](/image/rna_seq.png)
+![rna_seq](image/rna_seq.png)
 
 ### Count
 Some interesting thing I found from RNA-seq count:
