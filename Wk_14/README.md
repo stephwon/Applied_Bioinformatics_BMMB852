@@ -28,7 +28,7 @@ There are:
 * However, B samples did not look like they are correlated much given that they are all spread far apart.
 * Between sample A and B they are not closely correlated.
 
-[pca](/result_viz/pca.pdf)
+[pca](result_viz/pca.pdf)
 ### Heatmap
 * Sample A and sample B had do not share same genes expressing, which supports the PCA results that the two sample groups are not correlated.
 * When looking at sample A's, all the samples had varying degree of 
@@ -36,7 +36,7 @@ There are:
 * Some genes exhibit strong "upregulation" (red) or "downregulation" (blue). For example the top genes (e.g., `GENE-7996`, `GENE-14387`) are highly expressed in sample B but not in sample A. 
 * Even within the same sample group, the expression level for the same gene differ. For example when looking at `GENE-13442` it's highly expressed in sample A3 but not much in A1 and A2.
 
-[heatmap](/result_viz/heatmap.pdf)
+[heatmap](result_viz/heatmap.pdf)
 
 
 
