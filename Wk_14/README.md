@@ -37,7 +37,7 @@ The location to PCA image is [pca](result_viz/pca.pdf)
 * Some genes exhibit strong "upregulation" (red) or "downregulation" (blue). For example the top genes (e.g., `GENE-7996`, `GENE-14387`) are highly expressed in sample B but not in sample A. 
 * Even within the same sample group, the expression level for the same gene differ. For example when looking at `GENE-13442` it's highly expressed in sample A3 but not much in A1 and A2.
 
-Location to heatmap is [heatmap](result_viz/heatmap.pdf)
+Location to heatmap image is [heatmap](result_viz/heatmap.pdf)
 
 
 
