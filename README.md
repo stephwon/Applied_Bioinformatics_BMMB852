@@ -16,4 +16,6 @@ Fall '24 BMMB 852 Applied Bioinformatics Class Coding Projects and Scripts.
 * `Wk9` contains the markdown and flagstat reports (`.txt` files) as well as makefile. 
 * `Wk_10` contains the markdown report and makefile for variant calling assignment.
 * `Wk_11` contains the markdown report and makefile for variant effect predition.
-* `Wk_12` contians the markdown report and makefile for automate a VCF calling pipeline.
+* `Wk_12` contains the markdown report and makefile for automate a VCF calling pipeline.
+* `Wk_13` contains the markdown report and makefile for generating RNA-seq count.
+* `Wk_14` contains the markdown report and makefile for differential expression result and analysis.
